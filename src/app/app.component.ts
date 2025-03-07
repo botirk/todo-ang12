@@ -10,4 +10,12 @@ import { Task } from './task/task.component';
 })
 export class AppComponent {
   tasks: Array<Task> = [];
+
+  entered(task: Task) {
+    this.tasks.push(task);
+  }
+
+  delete(i: number) {
+    this.tasks.splice(i, 1);
+  }
 }

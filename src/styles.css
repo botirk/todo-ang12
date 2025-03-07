@@ -1,0 +1,6 @@
+button {
+    width: 25px;
+    min-width: 25px;
+
+    max-height: 30px;
+}

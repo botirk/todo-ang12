@@ -4,4 +4,10 @@
     justify-content: center;
 
     padding: 25px max(10px, min(35%, 100% - 450px));
+
+    gap: 3px;
+}
+
+:host > * {
+    min-height: 30px;
 }

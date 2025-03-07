@@ -4,11 +4,6 @@
 }
 
 :host > input {
-    flex-grow: 3;
-    flex-shrink: 1;
-}
-
-:host > button {
     flex-grow: 1;
-    flex-shrink: 3;
+    flex-shrink: 1;
 }
