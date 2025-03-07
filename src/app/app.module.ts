@@ -10,11 +10,11 @@ import { AppComponent } from './app.component';
     BrowserModule,
     ReactiveFormsModule,
     RouterModule.forRoot([
-      { path: '' },
+      { path: '**', component: AppComponent },
     ])
   ],
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   bootstrap: [
     AppComponent
