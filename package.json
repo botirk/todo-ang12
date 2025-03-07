@@ -5,7 +5,6 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "SET NODE_OPTIONS=--openssl-legacy-provider && ng build",
-    "bp": "SET NODE_OPTIONS=--openssl-legacy-provider && ng build --configuration production --output-path ../public/client/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

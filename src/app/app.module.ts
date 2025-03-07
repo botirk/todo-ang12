@@ -4,6 +4,8 @@ import { RouterModule } from '@angular/router';
 import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
+import { TaskComponent } from './task/task.component';
+import { EnterTaskComponent } from './task/entertask.component';
 
 @NgModule({
   imports: [
@@ -14,10 +16,12 @@ import { AppComponent } from './app.component';
     ])
   ],
   declarations: [
+    TaskComponent,
     AppComponent,
+    EnterTaskComponent,
   ],
   bootstrap: [
-    AppComponent
+    AppComponent,
   ]
 })
 export class AppModule { }

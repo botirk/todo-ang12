@@ -1,0 +1,7 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 25px max(10px, min(35%, 100% - 450px));
+}
